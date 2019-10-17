@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "FlightShame",
+    "description": "This extension will shame you for flying!",
+    "version": "0.1",
+    "content_scripts": [{
+        "all_frames": true,
+        "js" : ["lib/flight-shame.js"],
+        "matches": ["https://www.google.com/flights*"]
+    }],
+    "background": {
+        "scripts" : ["lib/background.js"]
+    },
+    "web_accessible_resources": ["images/icon.png"],
+    "permissions": ["https://api.goclimateneutral.org/"]
+}
