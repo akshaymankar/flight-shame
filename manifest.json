@@ -12,6 +12,6 @@
     "background": {
         "scripts" : ["lib/background.js"]
     },
-    "web_accessible_resources": ["images/icon.png"],
-    "permissions": ["https://api.goclimateneutral.org/"]
+    "web_accessible_resources": ["eurostar.jpg"],
+    "permissions": ["https://api.goclimateneutral.org/", "https://hack-server.cfapps.io/"]
 }
